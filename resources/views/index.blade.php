@@ -21,7 +21,7 @@
                 @csrf
                 <div class="mb-3">
                     <label for="formFile" class="form-label">Resim Seçin</label>
-                    <input class="form-control" name="image" type="file" id="formFile" accept="image/*">
+                    <input class="form-control" name="image" type="file" id="formFile" accept="image/*" required>
                 </div>
                 <button class="btn btn-block btn-primary" type="submit">Resmi Ekle</button>
                     <a href="{{route('data')}}"><p class="font-italic">Eklediğim Resimler</p></a>
