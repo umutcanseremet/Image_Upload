@@ -9,7 +9,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4.col-md-offset-4">
-            <h4>Yeni Konu Ekle</h4>
+            <h4>Yeni Resim Ekle</h4>
             <hr>
             <form action="{{route('store')}}" method="post" enctype="multipart/form-data">
                 @if(Session::has('success'))
@@ -23,7 +23,7 @@
                     <label for="formFile" class="form-label">Resim Seçin</label>
                     <input class="form-control" name="image" type="file" id="formFile" accept="image/*">
                 </div>
-                <button class="btn btn-block btn-primary" type="submit">Konuyu Ekle</button>
+                <button class="btn btn-block btn-primary" type="submit">Resmi Ekle</button>
                     <a href="{{route('data')}}"><p class="font-italic">Eklediğim Resimler</p></a>
         </form>
     </div>
